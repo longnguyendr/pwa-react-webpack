@@ -2,4 +2,3 @@ node_modules
 platforms
 api
 www/js/bundle.js
-apiKey.json
