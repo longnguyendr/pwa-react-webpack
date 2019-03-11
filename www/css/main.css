@@ -1,0 +1,81 @@
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(90deg, #283E51, #0A2342 ,#283E51);
+	background-size: 400% 400%;
+	/* background: #4B79A1;   */
+	/* background: linear-gradient(-45deg, rgb(148, 147, 146), rgb(0, 0, 0), rgb(148, 147, 146),rgb(0, 0, 0)); */
+	/* background: linear-gradient(-45deg, #001f3f,#7FDBFF, #0074D9, #001f3f); */
+	/* -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite; */
+}
+
+  .stars {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	display:block;
+	z-index:0;
+	animation: dropstar 20s linear infinite;
+  }
+@keyframes dropstar{
+	0%{
+		background: url(http://www.script-tutorials.com/demos/360/images/stars.png) top left;
+	}
+	25% {
+		background: url(http://www.script-tutorials.com/demos/360/images/stars.png) top right;
+	}
+	50% {
+		background: url(http://www.script-tutorials.com/demos/360/images/stars.png) bottom right;
+	} 
+	75% {
+		background: url(http://www.script-tutorials.com/demos/360/images/stars.png) bottom left;
+	}
+	100% {
+		background: url(http://www.script-tutorials.com/demos/360/images/stars.png) top left;
+	}
+} 
+
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}

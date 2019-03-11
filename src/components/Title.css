@@ -1,0 +1,12 @@
+
+.mainTitle {
+    text-align: center;
+    font-family: 'Rammetto One';
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    font-style:normal;
+    padding-top: 0.1em;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
